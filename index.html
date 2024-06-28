@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weekly time table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Time Tabe</h1>
+    <table>
+      <th>days/time</th>
+      <th>9:00-9:50</th>
+      <th>9:50-10:30</th>
+      <th>10:30-11:10</th>
+      <th>11:10-11:30</th>
+      <th>11:30-12:20</th>
+      <th>12:20-1:10</th>
+      <th>1:10-2:00</th>
+      <th>2:00-2:50</th>
+      <th>2:50-3:40</th>
+      <th>3:40-4:30</th>
+      <th>6:00-7:30</th>
+      <th>9:00-10:00</th>
+      <tr>
+        <th>monday</th>
+        <td>html</td>
+        <td>css</td>
+        <td>practice</td>
+        <td rowspan="6">b<br />r<br />e<br />a<br />k</td>
+        <td>javascript</td>
+        <td>practice</td>
+        <td rowspan="6">l<br />u<br />n<br />c<br />h</td>
+        <td>sql</td>
+        <td>practice</td>
+        <td>python</td>
+        <td>practice</td>
+        <td>revision</td>
+      </tr>
+      <tr>
+        <th>tuesday</th>
+        <td>javascript</td>
+        <td rowspan="4">practice</td>
+        <td>html</td>
+        <!-- <td>break</td> -->
+        <td>css</td>
+        <td>practice</td>
+        <!-- <td>lunch</td> -->
+        <td>practice</td>
+        <td>python</td>
+        <td>practice</td>
+        <td>practice</td>
+        <td>revision</td>
+      </tr>
+      <tr>
+        <th>wednesday</th>
+        <td>html</td>
+        <!-- <td>practice</td> -->
+        <td>sql</td>
+        <!-- <td>break</td> -->
+        <td>practice</td>
+        <td>python</td>
+        <!-- <td>lunch</td> -->
+        <td>practice</td>
+        <td>css</td>
+        <td>javascript</td>
+        <td>practice</td>
+        <td>revision</td>
+      </tr>
+      <tr>
+        <th>thursday</th>
+        <td>javascript</td>
+        <!-- <td>practice</td> -->
+        <td>css</td>
+        <!-- <td>break</td> -->
+        <td>practice</td>
+        <td>html</td>
+        <!-- <td>lunch</td> -->
+        <td>css</td>
+        <td>practice</td>
+        <td>pytyon</td>
+        <td>practice</td>
+        <td>revision</td>
+      </tr>
+      <tr>
+        <th>friday</th>
+        <td>practice</td>
+        <!-- <td>practice</td> -->
+        <td>css</td>
+        <!-- <td>break</td> -->
+        <td>html</td>
+        <td>practice</td>
+        <!-- <td>lunch</td> -->
+        <td>javascript</td>
+        <td>practice</td>
+        <td>practice</td>
+        <td>sql</td>
+        <td>revision</td>
+      </tr>
+      <tr>
+        <th>saturday</th>
+        <td>python</td>
+        <td>sql</td>
+        <td>practice</td>
+        <!-- <td>break</td> -->
+        <td colspan="2">practice</td>
+        <!-- <td>practice</td> -->
+        <!-- <td>lunch</td> -->
+        <td colspan="4">movies</td>
+        <!-- <td>movies</td> -->
+        <!-- <td>movies</td> -->
+        <!-- <td>movies</td> -->
+        <td>recall</td>
+      </tr>
+    </table>
+
+    <h1>HTML FORM</h1>
+    <form>
+      <label for="name">user name</label>
+      <input
+        type="text"
+        id="name"
+        name="dg"
+        placeholder="enter ur name"
+      /><br /><br />
+      <label for="email">email</label>
+      <input
+        type="email"
+        id="email"
+        name="gf"
+        placeholder="enter email"
+      /><br /><br />
+      <label for="pass">password</label>
+      <input
+        type="password"
+        id="pass"
+        name="password"
+        placeholder="enter password"
+      /><br /><br />
+      <label>slelect the language</label>
+      <select name="fav_lan" id="lan">
+        <dropdown>
+          <option value="c">c</option>
+          <option value="python">python</option>
+          <option value="c++">c++</option>
+        </dropdown></select
+      ><br /><br />
+      <label>select the course</label>
+      <input list="it" id="ri" name="it" />
+      <datalist id="it">
+        <option>cse</option>
+        <option>ece</option></datalist
+      ><br /><br />
+      <label>gender</label>
+      <input type="radio" id="gender" name="gender" value="male" />
+      <label for="gender">male</label>
+      <input type="radio" id="gender" name="gender" value="female" />
+      <label for="gender">female</label>
+      <br /><br />
+      <button>subbmit</button>
+    </form>
+  </body>
+</html>
